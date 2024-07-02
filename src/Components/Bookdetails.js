@@ -5,7 +5,7 @@ const BookDetails = ({ books, onAddBook }) => {
     const [searchParams,setSearchParams] = useSearchParams();// Get book ID from URL params
     const id =searchParams.get("bookId");
 
-    const book = books.find((book, index) => index.toString() === id);
+    const book = books.find((book, index) => book.id == id);
 
     if (!book) return <div>Book not found.</div>;
 

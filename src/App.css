@@ -51,11 +51,6 @@ main {
   background-color: white;
   border: 1px solid #000000;
   align:centre;
-<<<<<<< HEAD
-  padding: 8px;
-  border-radius: 5px;
-}
-=======
   background: linear-gradient(90deg,
       #00204a 100%,
       #005792 0%);
@@ -63,7 +58,6 @@ main {
   border-radius: 6%;
   width: 350px;
 }*/
->>>>>>> c196e8c7464814854571547de6c31d5b5776a776
 
 /* .card:nth-child(4n + 1) {
   background: linear-gradient(90deg,
