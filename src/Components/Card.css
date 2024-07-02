@@ -1,0 +1,36 @@
+/* src/BookCard.css */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+
+.card-content {
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.card-author {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #333;
+}
