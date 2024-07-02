@@ -2,15 +2,23 @@
 
 import React from 'react';
 import './Card.css'; // Optional: Create a CSS file for styling
+import { useNavigate } from 'react-router-dom';
 
-const Card = ({ title, author, description, image }) => {
+const Card = ({ id,title, author, description, image }) => {
+    const navi = useNavigate()
+    function handleclick()
+    {
+       navi("/bookdetails?bookId="+id)
+    }
     return (
-        <div className="card">
+        <div className="card" onClick={handleclick}>
           
             <div className="card-content">
+                <p className='card-id'>{id}</p>
                 <h2 className="card-title">{title}</h2>
                 <h3 className="card-author">{author}</h3>
                 <p className="card-description">{description}</p>
+                
             </div>
         </div>
     );
