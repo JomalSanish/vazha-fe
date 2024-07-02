@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-const Card = (props) => {
-    return(
-        <div className = "card">
-            <p>{props.taskName}</p>
-            <button className="button" onClick={() =>props.completeTaskHandler(props.id)}>Book</button>
-=======
 // src/BookCard.js
 
 import React from 'react';
@@ -27,7 +20,6 @@ const Card = ({ id,title, author, description, image }) => {
                 <p className="card-description">{description}</p>
                 
             </div>
->>>>>>> c196e8c7464814854571547de6c31d5b5776a776
         </div>
     );
 };

@@ -1,15 +1,9 @@
 import React from 'react';
 import { Route, BrowserRouter ,Routes} from 'react-router-dom';
 import './App.css';
-<<<<<<< HEAD
-import { Card } from './Components/Card';
-import Book from './Components/Book';
-import { Input } from './Components/Input';
-=======
 import Home from './Components/home';
 import BookDetails from './Components/Bookdetails';
 
->>>>>>> c196e8c7464814854571547de6c31d5b5776a776
 function App() {
   const books = [
     {
