@@ -1,22 +1,15 @@
 import './App.css';
-
+import { Card } from './Components/Card';
+import Task from './Components/Task';
+import { Input } from './Components/Input';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> anurag.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header className="header">MITS Library
       </header>
+      <main>
+      <Card/>
+      </main>
     </div>
   );
 }

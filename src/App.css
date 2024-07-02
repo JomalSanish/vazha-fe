@@ -2,37 +2,102 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #e51717;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border-radius: 10px;
+}
+html {
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: #ffffff;
+  color: black;
+  align-items: center;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  border-radius: 16px;
+  background-color: white;
+  border: 1px solid #000000;
+  margin: 50px auto;
+  padding: 32px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  /* background: linear-gradient(90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%); */
+
+  background: linear-gradient(90deg,
+      #00204a 100%,
+      #005792 0%);
+  padding: 8px 16px;
+  border-radius: 6%;
+  width: 350px;
+}
+
+/* .card:nth-child(4n + 1) {
+  background: linear-gradient(90deg,
+      rgba(93, 12, 255, 1) 0%,
+      rgba(155, 0, 250, 1) 100%);
+}
+
+.card:nth-child(4n + 2) {
+  background: linear-gradient(90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%);
+} */
+
+/* .card:nth-child(4n + 3) {
+  background: linear-gradient(90deg,
+      rgba(20, 159, 255, 1) 0%,
+      rgba(17, 122, 255, 1) 100%);
+} */
+
+button {
+  /* border: none; */
+  border-radius: 6px;
+  height: fit-content;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.task-input {
+  /* border: none; */
+  border-radius: 6px;
+  padding: 16px 15px;
+}
+
+.navbar a {
+  color: black;
+  background-color: white;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 6px;
 }
