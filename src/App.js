@@ -8,6 +8,7 @@ function App() {
       <header className="header">MITS Library
       </header>
       <main>
+        <Input/>
       <Card/>
       </main>
     </div>

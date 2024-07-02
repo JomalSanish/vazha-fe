@@ -19,7 +19,6 @@ html {
 body {
   background-color: #ffffff;
   color: black;
-  align-items: center;
   padding: 10px;
 }
 
@@ -29,12 +28,13 @@ main {
   border: 1px solid #000000;
   margin: 50px auto;
   padding: 32px;
+  align-items: right;
 }
 
 .card {
   display: flex;
   justify-content: space-between;
-  align-items: right;
+  align:centre;
   /* background: linear-gradient(90deg,
       rgba(255, 118, 20, 1) 0%,
       rgba(255, 84, 17, 1) 100%); */
