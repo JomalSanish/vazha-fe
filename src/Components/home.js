@@ -4,8 +4,6 @@ import Card from './Card';
 
 function Home({books}) {
   
-
-
     return (
             <main className="card-container">
                 {books.map((book, index) => (
@@ -15,7 +13,7 @@ function Home({books}) {
                         title={book.title}
                         author={book.author}
                         description={book.description}
-                        // image={book.image}
+                        image={book.image}
                     />
                 ))}
             </main>
