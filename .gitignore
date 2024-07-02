@@ -22,7 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-#added
-package-lock.json
-package.json
-node_modules
+# #added
+# package-lock.json
+# package.json
+# node_modules
