@@ -28,8 +28,8 @@ const Input = (props) => {
     }, [inputText]);
     return(
         <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="Enter book name" value={inputText} onChange={handleInput}/>
-            <button type="submit">Search</button>
+            <input type="text" placeholder="Add new book" value={inputText} onChange={handleInput}/>
+            <button type="submit">Add</button>
         </form>
     );
 

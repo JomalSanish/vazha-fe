@@ -34,17 +34,11 @@ main {
 .card {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  border: 1px solid #000000;
   align:centre;
-  /* background: linear-gradient(90deg,
-      rgba(255, 118, 20, 1) 0%,
-      rgba(255, 84, 17, 1) 100%); */
-
-  background: linear-gradient(90deg,
-      #00204a 100%,
-      #005792 0%);
-  padding: 8px 16px;
-  border-radius: 6%;
-  width: 350px;
+  padding: 8px;
+  border-radius: 5px;
 }
 
 /* .card:nth-child(4n + 1) {
